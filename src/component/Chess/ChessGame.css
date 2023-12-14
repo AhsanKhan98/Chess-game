@@ -1,0 +1,12 @@
+
+.flex-container {
+  display: flex;
+  flex-wrap: column;
+  /* justify-content: space-around; */
+}
+
+@media screen and (max-width: 820px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
